@@ -3,7 +3,18 @@
   --bg-color: rgb(12, 2, 38);
 }
 
+
+@keyframes navbar-animation {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
 body {
+  padding-top: 70px; /* Add padding to prevent content from hiding under the fixed navbar */
   background-color: #081b29;
   color: #ededed;
   margin: 0;
@@ -16,11 +27,17 @@ a {
 }
 
 .nav_bar {
-  position: relative;
+  position: fixed; /* Fix the navbar at the top */
+  top: 0; /* Position it at the top */
+  width: 100%; /* Make sure it spans the full width of the viewport */
+  z-index: 1000; /* Ensure it stays on top of other content */
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  background-color: var(--bg-color); /* Keep the original background color */
+  flex-wrap: wrap;
+  animation: navbar-animation 1s ease-in-out; /* Add your desired animation */
 }
 
 .nav_bar .nav_items {
@@ -38,6 +55,7 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  flex-wrap: wrap; /* Ensure content wraps on smaller screens */
 }
 
 .home .left {
@@ -47,6 +65,7 @@ a {
   border-radius: 10px;
   border: 2px solid yellowgreen;
   box-shadow: var(--box-shadow);
+  margin-bottom: 20px; /* Add spacing for smaller screens */
 }
 
 .home .right .img {
@@ -92,7 +111,8 @@ a {
 }
 
 .ex {
-  width: 900px;
+  width: 100%;
+  max-width: 900px;
   margin: 20px auto;
 }
 
@@ -103,7 +123,8 @@ a {
   background-color: var(--bg-color);
   margin: 20px;
   padding: 30px;
-  width: 680px;
+  width: 100%;
+  max-width: 680px;
   border-radius: 10px;
   border: 1px solid yellow;
   box-shadow: var(--box-shadow);
@@ -126,7 +147,8 @@ a {
 }
 
 .skills {
-  width: 900px;
+  width: 100%;
+  max-width: 900px;
   margin: 20px auto;
 }
 
@@ -138,7 +160,8 @@ a {
 }
 
 .skills .items .item {
-  width: calc(33.33%);
+  width: 100%;
+  max-width: calc(33.33%);
   background-color: black;
   margin: 20px;
   text-align: center;
@@ -155,7 +178,7 @@ a {
 .contact-icon {
   display: flex;
   flex-wrap: nowrap;
-  overflow: auto;
+  overflow-x: auto; /* Horizontal scroll if necessary */
   height: auto;
   justify-content: center;
   align-items: center;
@@ -172,6 +195,7 @@ a {
   align-items: center;
   border-radius: 50%;
   border: 1px solid yellow;
+  min-width: 70px; /* Ensure min-width to prevent shrink */
 }
 
 .contact-icon .items:hover {
@@ -253,6 +277,7 @@ a {
   .nav_bar {
     flex-direction: column;
     align-items: center;
+    text-align: center;
   }
 
   .home {
