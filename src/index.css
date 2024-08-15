@@ -3,11 +3,33 @@
   --bg-color: black;
 }
 
+
 body {
-  background-color: #081b29;
-  color: #ededed;
+  background-image: url('../public/assests/green2.avif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  color: #ededed;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  z-index: -1;
+}
+@media (max-width: 480px) {
+  body {
+    font-size: 16px;
+    line-height: 1.5;
+  }
 }
 
 a {
@@ -59,7 +81,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
 }
 
 .home .right .img img {
@@ -88,8 +109,8 @@ a {
     box-shadow: 10px 10px 100px 50px yellow;
   }
   75% {
-    border-color: black;
-    box-shadow: 10px 10px 100px 50px black;
+    border-color: yellowgreen;
+    box-shadow: 10px 10px 100px 50px yellowgreen;
   }
   100% {
     border-color: rgba(10, 175, 73, 0.603);
@@ -275,4 +296,3 @@ a {
     width: calc(100% - 40px);
   }
 }
-
