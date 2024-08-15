@@ -1,0 +1,46 @@
+[
+   
+    {
+      "key": 2,
+      "title": "Online Banking System",
+      "imageSrc": "projects/Online.png",
+      "description": "This is a project made with complete React js and SpringBoot Project.",
+      
+      "source": "https://github.com/DeepaliKumari12345678"
+    },
+    {
+        "key": 3,
+        "title": "Employee Management ",
+        "imageSrc": "projects/employee.jpg",
+        "description": "This is a project made with complete React js and SpringBoot Project.",
+    
+        "source": "https://github.com/DeepaliKumari12345678"
+      },
+      {
+        "key": 3,
+        "title": "Face Recognition",
+        "imageSrc": "projects/face.jpg",
+        "description": "This is a project made with python modules like OpenCV , Face Recognition.",
+    
+        "source": "https://github.com/DeepaliKumari12345678"
+      },
+    {
+      "key": 4,
+      "title": "News App",
+      "imageSrc": "projects/news.jpg",
+      "description": "This is a project made with complete React js.",
+     
+      "source": "https://github.com/DeepaliKumari12345678"
+    },
+    {
+      "key": 5,
+      "title": "Portfolio",
+      "imageSrc": "projects/portfolio.png",
+      "description": "This is a project using react js , typed js and animations",
+  
+      "source": "https://github.com/DeepaliKumari12345678"
+    }
+   
+  
+  ]
+  

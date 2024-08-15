@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "role": "Core Java Trainee",
+      "organisation": "Internshala",
+      "startDate": "July, 2023",
+      "endDate": "August, 2023",
+      
+     
+      "imageSrc": "company/logointern.png"
+    },
+    {
+      "id": 2,
+      "role": "Web Development Trainee",
+      "organisation": "Internshala",
+      "startDate": "July, 2023",
+      "endDate": "August, 2023",
+      
+     
+      "imageSrc": "company/logointern.png"
+    },
+    {
+      "id": 3,
+      "role": "Web Developer - Intern",
+      "organisation": "Codsoft",
+      "startDate": "July, 2023",
+      "endDate": "August, 2023",
+      "imageSrc": "company/codsoft.png"
+    },
+    {
+        "id": 4,
+        "role": "Software Developer - Intern",
+        "organisation": "Prodigy Infotech",
+        "startDate": "July, 2024",
+        "endDate": "August, 2024",
+        "imageSrc": "company/prodigy.png"
+      }
+  ]
+  
