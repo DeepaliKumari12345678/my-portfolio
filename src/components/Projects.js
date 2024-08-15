@@ -9,7 +9,7 @@ export default function Projects() {
         {projects.map((data)=>(
           <>
           <div key={data.id} className='my-4 col-sm-6 col-md-4 col-lg-3 mx-3'>
-            <div className='card bg-dark text-light' style={{width:'18rem', border:'2px solid yellow ', boxShadow:'5px 5px 10px 10px rgba(10, 175, 73, 0.603)'}}
+            <div className='card bg-black text-light' style={{width:'18rem', border:'2px solid yellow ', boxShadow:'5px 5px 10px 10px rgba(10, 175, 73, 0.603)'}}
             data-aos="flip-right"
             data-aos-duration="1000">
       <div className='img d-flex justify-content-center align-content-center p-3'>
