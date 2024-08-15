@@ -178,11 +178,12 @@ a {
   align-items: center;
   border-radius: 50%;
   border: 1px solid yellow;
-  box-shadow: var(--box-shadow);
+
 }
 
 .contact-icon .items:hover {
   background-color: var(--bg-color);
+    box-shadow: var(--box-shadow);
 }
 
 .contact-icon .icons {
