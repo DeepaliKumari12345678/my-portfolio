@@ -1,6 +1,6 @@
 :root {
   --box-shadow: 5px 5px 10px 10px rgba(10, 175, 73, 0.603);
-  --bg-color: rgb(12, 2, 38);
+  --bg-color: black;
 }
 
 body {
@@ -44,7 +44,7 @@ a {
 }
 
 .home .left {
-  background-color: rgb(12, 2, 38);
+  background-color: black;
   width: 100%;
   max-width: 650px;
   text-align: center;
@@ -88,8 +88,8 @@ a {
     box-shadow: 10px 10px 100px 50px yellow;
   }
   75% {
-    border-color: yellowgreen;
-    box-shadow: 10px 10px 100px 50px yellowgreen;
+    border-color: black;
+    box-shadow: 10px 10px 100px 50px black;
   }
   100% {
     border-color: rgba(10, 175, 73, 0.603);
